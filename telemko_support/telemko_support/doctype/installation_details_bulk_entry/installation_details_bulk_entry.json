@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-17 17:54:26.623841",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "table_cqvk",
+  "section_break_kycp",
+  "bulk_message",
+  "section_break_4mtg",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "table_cqvk",
+   "fieldtype": "Table",
+   "options": "Installation Details Item"
+  },
+  {
+   "fieldname": "section_break_kycp",
+   "fieldtype": "Section Break",
+   "label": "Error & Warning Logs"
+  },
+  {
+   "fieldname": "bulk_message",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "section_break_4mtg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Installation Details Bulk Entry",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-12-07 22:17:12.694749",
+ "modified_by": "Administrator",
+ "module": "Telemko Support",
+ "name": "Installation Details Bulk Entry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

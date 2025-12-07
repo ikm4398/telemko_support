@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:sim_identifier",
+ "creation": "2025-10-08 11:53:18.908461",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sim_identifier",
+  "sim_number",
+  "provider",
+  "plan_name",
+  "price",
+  "purchase_date",
+  "column_break_zmqh",
+  "status",
+  "is_inactive",
+  "expiry_date",
+  "remaining_days",
+  "is_used",
+  "stock_record",
+  "stock_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "sim_identifier",
+   "fieldtype": "Data",
+   "label": "SIM Identifier/ ICCID",
+   "unique": 1
+  },
+  {
+   "default": "+977-",
+   "fieldname": "sim_number",
+   "fieldtype": "Phone",
+   "label": "SIM Number"
+  },
+  {
+   "fieldname": "provider",
+   "fieldtype": "Link",
+   "label": "Provider",
+   "options": "SIM Provider"
+  },
+  {
+   "fieldname": "plan_name",
+   "fieldtype": "Link",
+   "label": "Plan Name",
+   "options": "SIM Plan"
+  },
+  {
+   "fetch_from": "plan_name.price",
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Price"
+  },
+  {
+   "fieldname": "purchase_date",
+   "fieldtype": "Date",
+   "label": "Purchase Date"
+  },
+  {
+   "fieldname": "column_break_zmqh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nActive\nInactive\nExpired",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_inactive",
+   "fieldtype": "Check",
+   "label": "Is Inactive"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "remaining_days",
+   "fieldtype": "Data",
+   "label": "Remaining Days"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_used",
+   "fieldtype": "Check",
+   "label": "Is Used"
+  },
+  {
+   "fieldname": "stock_record",
+   "fieldtype": "Link",
+   "label": "Stock Record",
+   "options": "Device Stock"
+  },
+  {
+   "fetch_from": "stock_record.status",
+   "fieldname": "stock_status",
+   "fieldtype": "Data",
+   "label": "Stock Status",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-07 22:32:53.747707",
+ "modified_by": "Administrator",
+ "module": "Telemko Support",
+ "name": "SIM Card",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "sim_identifier",
+ "track_changes": 1
+}

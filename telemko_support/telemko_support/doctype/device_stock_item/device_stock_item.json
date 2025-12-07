@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:tag",
+ "creation": "2025-10-12 16:41:49.409222",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tag",
+  "device_name",
+  "type",
+  "imei",
+  "status",
+  "assign_sim",
+  "sim_number",
+  "sim_carrier"
+ ],
+ "fields": [
+  {
+   "fieldname": "tag",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "tag",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "device_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Device Name",
+   "options": "Device",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "device_name.device_type",
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Device/ Product Type"
+  },
+  {
+   "fieldname": "imei",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "IMEI",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Unavailable\nReady\nAvailable"
+  },
+  {
+   "fieldname": "assign_sim",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Assign SIM",
+   "options": "SIM Card",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "assign_sim.sim_number",
+   "fieldname": "sim_number",
+   "fieldtype": "Data",
+   "label": "SIM Number"
+  },
+  {
+   "fetch_from": "assign_sim.provider",
+   "fieldname": "sim_carrier",
+   "fieldtype": "Data",
+   "label": "SIM Carrier"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-12-07 22:32:52.871479",
+ "modified_by": "Administrator",
+ "module": "Telemko Support",
+ "name": "Device Stock Item",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,178 @@
+{
+ "app": "simtrack",
+ "charts": [
+  {
+   "chart_name": "SIM Provider",
+   "label": "Number of SIM Cards by Provider"
+  }
+ ],
+ "content": "[{\"id\":\"IGVXV1ZPL6\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Number of SIM Cards by Provider\",\"col\":6}},{\"id\":\"jA0LruFYKF\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Active SIM Card\",\"col\":3}},{\"id\":\"tE0ql4ZRi_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Expire SIM Card\",\"col\":3}},{\"id\":\"145WkBBCmA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Fy1ep8E_FQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Expire In 7 Days\",\"col\":3}},{\"id\":\"-VYrRPzLET\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Expire In 30 Days\",\"col\":3}},{\"id\":\"z5mitzPKaU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Expire In 60 Days\",\"col\":3}},{\"id\":\"14mobPauN7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Expire In 90 Days\",\"col\":3}},{\"id\":\"MoR_pdPSwX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Available SIM\",\"col\":3}},{\"id\":\"LkqrpJHM9X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"OR8PYiYspy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SIM Card\",\"col\":3}},{\"id\":\"uRwP3UKxEo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Stock\",\"col\":3}},{\"id\":\"ZDs1ryoiZN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Installation Details\",\"col\":3}},{\"id\":\"OE39iI-fux\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"rGZgAevMl-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Stock Bulk Entry\",\"col\":4}},{\"id\":\"Y4mkUcRAvU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SIM Card Bulk Entry\",\"col\":4}},{\"id\":\"EBKL91axDo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Installation Details Bulk Entry\",\"col\":4}},{\"id\":\"eD8A2iE9PW\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"OGUqlm-Oog\",\"type\":\"card\",\"data\":{\"card_name\":\"Setup\",\"col\":4}}]",
+ "creation": "2025-10-08 13:43:50.010963",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "call",
+ "idx": 1,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Telemko SIM Card",
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setup",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SIM Plans",
+   "link_count": 0,
+   "link_to": "SIM Plan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SIM Providers",
+   "link_count": 0,
+   "link_to": "SIM Provider",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Devices",
+   "link_count": 0,
+   "link_to": "Device",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Device Type",
+   "link_count": 0,
+   "link_to": "Device Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-12-07 22:45:04.407127",
+ "modified_by": "Administrator",
+ "module": "Telemko Support",
+ "name": "Telemko SIM Card",
+ "number_cards": [
+  {
+   "label": "Total Active SIM Card",
+   "number_card_name": "Total Active SIM Card"
+  },
+  {
+   "label": "Total Expire SIM Card",
+   "number_card_name": "Total Expire SIM Card"
+  },
+  {
+   "label": "Expire In 90 Days",
+   "number_card_name": "Expire In 90 Days"
+  },
+  {
+   "label": "Expire In 7 Days",
+   "number_card_name": "Expire In 7 Days"
+  },
+  {
+   "label": "Expire In 60 Days",
+   "number_card_name": "Expire In 60 Days"
+  },
+  {
+   "label": "Expire In 30 Days",
+   "number_card_name": "Expire In 30 Days"
+  },
+  {
+   "label": "Total Available SIM",
+   "number_card_name": "Total Available SIM"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 4.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "SIM Card",
+   "link_to": "SIM Card",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Available",
+   "label": "Device Stock",
+   "link_to": "Device Stock",
+   "stats_filter": "[[\"Device Stock\",\"status\",\"in\",[\"Ready\",\"Available\"],false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "SIM Card Bulk Entry",
+   "link_to": "SIM Card Bulk Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Installation Details Bulk Entry",
+   "link_to": "Installation Details Bulk Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Device Stock Bulk Entry",
+   "link_to": "Device Stock Bulk Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Installation Details",
+   "link_to": "Installation Details",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Telemko SIM Card",
+ "type": "Workspace"
+}

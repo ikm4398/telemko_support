@@ -1,0 +1,212 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-10-08 17:33:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "dealer",
+  "column_break_uebh",
+  "customer_name",
+  "vehicle_no",
+  "section_break_mrhd",
+  "device",
+  "device_name",
+  "product",
+  "imei",
+  "sim_number",
+  "column_break_dgwi",
+  "sim_carrier",
+  "status",
+  "installer",
+  "remarks",
+  "section_break_plol",
+  "column_break_vtzi",
+  "installation_billing_rate",
+  "billing_status",
+  "device_rate",
+  "subscription_package",
+  "column_break_amzv",
+  "status_to_sheet",
+  "billing_no",
+  "payment_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "dealer",
+   "fieldtype": "Data",
+   "label": "Dealer"
+  },
+  {
+   "fieldname": "column_break_uebh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "description": "Select Customer",
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "vehicle_no",
+   "fieldtype": "Data",
+   "label": "Vehicle No"
+  },
+  {
+   "fieldname": "section_break_mrhd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Select Device",
+   "fieldname": "device",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Device",
+   "options": "Device Stock",
+   "print_hide": 1,
+   "report_hide": 1
+  },
+  {
+   "bold": 1,
+   "fetch_from": "device.device_name",
+   "fieldname": "device_name",
+   "fieldtype": "Data",
+   "label": "Device Name",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fetch_from": "device.type",
+   "fieldname": "product",
+   "fieldtype": "Data",
+   "label": "Product",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fetch_from": "device.imei",
+   "fieldname": "imei",
+   "fieldtype": "Data",
+   "label": "IMEI",
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fetch_from": "device.sim_number",
+   "fieldname": "sim_number",
+   "fieldtype": "Data",
+   "label": "SIM Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_dgwi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "fetch_from": "device.sim_carrier",
+   "fieldname": "sim_carrier",
+   "fieldtype": "Data",
+   "label": "SIM Carrier",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "installer",
+   "fieldtype": "Data",
+   "label": "Installer"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks",
+   "max_height": "90px"
+  },
+  {
+   "fieldname": "section_break_plol",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_vtzi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "installation_billing_rate",
+   "fieldtype": "Data",
+   "label": "Installation Billing Rate"
+  },
+  {
+   "fieldname": "billing_status",
+   "fieldtype": "Data",
+   "label": "Billing Status"
+  },
+  {
+   "fieldname": "device_rate",
+   "fieldtype": "Currency",
+   "label": "Device Rate"
+  },
+  {
+   "fieldname": "subscription_package",
+   "fieldtype": "Data",
+   "label": "Subscription Package"
+  },
+  {
+   "fieldname": "column_break_amzv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status_to_sheet",
+   "fieldtype": "Data",
+   "label": "Status to Sheet"
+  },
+  {
+   "fieldname": "billing_no",
+   "fieldtype": "Data",
+   "label": "Billing No"
+  },
+  {
+   "fieldname": "payment_amount",
+   "fieldtype": "Currency",
+   "label": "Payment Amount"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-07 22:32:53.493079",
+ "modified_by": "Administrator",
+ "module": "Telemko Support",
+ "name": "Installation Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

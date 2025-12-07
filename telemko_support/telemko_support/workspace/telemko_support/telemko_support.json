@@ -1,0 +1,50 @@
+{
+ "app": "simtrack",
+ "charts": [],
+ "content": "[{\"id\":\"145WkBBCmA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LkqrpJHM9X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"fYHaox29lz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Customer Issue\",\"col\":3}},{\"id\":\"n1W6O_HbMf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer Issue List\",\"col\":4}},{\"id\":\"OE39iI-fux\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"eD8A2iE9PW\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2025-11-13 12:49:04.932720",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "support",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Telemko Support",
+ "link_to": "Issue",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2025-12-07 22:44:54.733749",
+ "modified_by": "Administrator",
+ "module": "Telemko Support",
+ "name": "Telemko Support",
+ "number_cards": [],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Add Customer Issue",
+   "link_to": "Issue",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Customer Issue List",
+   "link_to": "Issue",
+   "stats_filter": "",
+   "type": "DocType"
+  }
+ ],
+ "title": "Telemko Support",
+ "type": "Link"
+}
