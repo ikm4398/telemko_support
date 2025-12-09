@@ -1,5 +1,5 @@
 {
- "app": "simtrack",
+ "app": "telemko_support",
  "charts": [],
  "content": "[{\"id\":\"145WkBBCmA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LkqrpJHM9X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"OE39iI-fux\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"W642eIaRfN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Task\",\"col\":3}},{\"id\":\"eD8A2iE9PW\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2025-11-13 14:50:34.967992",
@@ -16,7 +16,7 @@
  "link_to": "Task",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-12-07 22:44:39.388240",
+ "modified": "2025-12-07 23:30:50.377275",
  "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko Task",

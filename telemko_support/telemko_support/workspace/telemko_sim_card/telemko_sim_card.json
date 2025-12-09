@@ -1,5 +1,5 @@
 {
- "app": "simtrack",
+ "app": "telemko_support",
  "charts": [
   {
    "chart_name": "SIM Provider",
@@ -80,7 +80,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-12-07 22:45:04.407127",
+ "modified": "2025-12-08 09:56:13.788304",
  "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko SIM Card",

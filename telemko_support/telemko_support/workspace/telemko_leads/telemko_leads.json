@@ -1,5 +1,5 @@
 {
- "app": "simtrack",
+ "app": "telemko_support",
  "charts": [],
  "content": "[{\"id\":\"LAKRmpYMRA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"XGIwEUStw_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"69RN0XsiJK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lead\",\"col\":3}},{\"id\":\"-I9HhcgUKE\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2025-11-23 13:02:32.075098",
@@ -13,9 +13,10 @@
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Telemko Leads",
+ "link_to": "Lead",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-12-07 22:44:28.727508",
+ "modified": "2025-12-08 11:30:45.760849",
  "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko Leads",
@@ -39,5 +40,5 @@
   }
  ],
  "title": "Telemko Leads",
- "type": "Workspace"
+ "type": "Link"
 }

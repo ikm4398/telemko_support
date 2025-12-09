@@ -1,5 +1,5 @@
 {
- "app": "simtrack",
+ "app": "telemko_support",
  "charts": [],
  "content": "[{\"id\":\"145WkBBCmA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LkqrpJHM9X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"fYHaox29lz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Customer Issue\",\"col\":3}},{\"id\":\"n1W6O_HbMf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer Issue List\",\"col\":4}},{\"id\":\"OE39iI-fux\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"eD8A2iE9PW\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
  "creation": "2025-11-13 12:49:04.932720",
@@ -16,7 +16,7 @@
  "link_to": "Issue",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-12-07 22:44:54.733749",
+ "modified": "2025-12-07 23:30:57.244509",
  "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko Support",
