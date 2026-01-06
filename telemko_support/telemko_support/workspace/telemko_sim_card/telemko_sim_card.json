@@ -80,14 +80,14 @@
    "type": "Link"
   }
  ],
- "modified": "2025-12-08 09:56:13.788304",
+ "modified": "2026-01-02 13:51:27.324590",
  "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko SIM Card",
  "number_cards": [
   {
    "label": "Total Active SIM Card",
-   "number_card_name": "Total Active SIM Card"
+   "number_card_name": "Total SIM Card"
   },
   {
    "label": "Total Expire SIM Card",
