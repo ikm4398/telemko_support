@@ -335,7 +335,10 @@ def complete_registration(mobile_no, otp, customer_name, email_id):
     user.insert()
     frappe.db.commit()
 
+    # Add standard Customer role + custom Mobile User role (if exists)
     user.add_roles("Customer")
+    if frappe.db.exists("Role", "Customer Mobile User"):
+        user.add_roles("Customer Mobile User")
 
     # -------------------------------------------------
     # LINK USER → CONTACT
@@ -343,7 +346,7 @@ def complete_registration(mobile_no, otp, customer_name, email_id):
     frappe.db.set_value("Contact", contact, "user", user.name)
 
     # -------------------------------------------------
-    # LINK USER → CUSTOMER (PORTAL USERS) ✅ FIX
+    # LINK USER → CUSTOMER (PORTAL USERS)
     # -------------------------------------------------
     if not frappe.db.exists(
         "Customer Portal User",
