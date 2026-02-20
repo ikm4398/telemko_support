@@ -1,0 +1,43 @@
+{
+ "app": "telemko_support",
+ "charts": [],
+ "content": "[{\"id\":\"LAKRmpYMRA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"XGIwEUStw_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"VUqHmrXBqC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Document\",\"col\":3}},{\"id\":\"-I9HhcgUKE\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "creation": "2026-02-19 11:29:16.416430",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "external_link": "https://telemko.com/",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "clipboard",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Telemko Company Docs",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2026-02-19 11:53:35.428420",
+ "modified_by": "anisha@telemko.com",
+ "module": "Telemko Support",
+ "name": "Telemko Company Docs",
+ "number_cards": [],
+ "owner": "anisha@telemko.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 6.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Add Document",
+   "link_to": "Telemko Document",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Telemko Company Docs",
+ "type": "Workspace"
+}

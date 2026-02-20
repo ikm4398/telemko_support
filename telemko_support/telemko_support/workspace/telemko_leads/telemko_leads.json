@@ -1,7 +1,7 @@
 {
  "app": "telemko_support",
  "charts": [],
- "content": "[{\"id\":\"LAKRmpYMRA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"XGIwEUStw_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"69RN0XsiJK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lead\",\"col\":3}},{\"id\":\"-I9HhcgUKE\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "content": "[{\"id\":\"LAKRmpYMRA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"XGIwEUStw_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"69RN0XsiJK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Lead\",\"col\":3}},{\"id\":\"-I9HhcgUKE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hS5hyGQUCC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"GPS Leads\",\"col\":4}},{\"id\":\"8W9Ey_7jhm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fuel Sensor Leads\",\"col\":4}},{\"id\":\"UxksPHhn6w\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Live Dashcam Leads\",\"col\":3}},{\"id\":\"AaITKgdcw_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"70Mai Leads\",\"col\":3}},{\"id\":\"M3ZvzoRq1U\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Botslabs\",\"col\":3}}]",
  "creation": "2025-11-23 13:02:32.075098",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,7 +16,7 @@
  "link_to": "Lead",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-12-08 11:30:45.760849",
+ "modified": "2026-02-16 17:10:43.365595",
  "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko Leads",
@@ -31,14 +31,59 @@
  "shortcuts": [
   {
    "color": "Blue",
-   "doc_view": "",
+   "doc_view": "New",
    "format": "{} Open",
-   "label": "Lead",
+   "label": "Add Lead",
    "link_to": "Lead",
    "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Fuel Sensor",
+   "label": "Fuel Sensor Leads",
+   "link_to": "Lead",
+   "stats_filter": "[[\"Lead\",\"custom_product_category\",\"=\",\"Fuel Sensor\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Live Dashcam",
+   "label": "Live Dashcam Leads",
+   "link_to": "Lead",
+   "stats_filter": "[[\"Lead\",\"custom_product_category\",\"=\",\"Live Dashcam\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} 70Mai",
+   "label": "70Mai Leads",
+   "link_to": "Lead",
+   "stats_filter": "[[\"Lead\",\"custom_product_category\",\"=\",\"70Mai\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Botslabs",
+   "label": "Botslabs",
+   "link_to": "Lead",
+   "stats_filter": "[[\"Lead\",\"custom_product_category\",\"=\",\"Botslabs\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} GPS",
+   "label": "GPS Leads",
+   "link_to": "Lead",
+   "stats_filter": "[[\"Lead\",\"custom_product_category\",\"=\",\"GPS\",false]]",
    "type": "DocType"
   }
  ],
  "title": "Telemko Leads",
- "type": "Link"
+ "type": "Workspace"
 }

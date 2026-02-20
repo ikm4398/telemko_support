@@ -1,7 +1,7 @@
 {
  "app": "telemko_support",
  "charts": [],
- "content": "[{\"id\":\"145WkBBCmA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LkqrpJHM9X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"OE39iI-fux\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"W642eIaRfN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Task\",\"col\":3}},{\"id\":\"eD8A2iE9PW\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "content": "[{\"id\":\"LkqrpJHM9X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Access</b></span>\",\"col\":12}},{\"id\":\"W642eIaRfN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Task\",\"col\":3}},{\"id\":\"eD8A2iE9PW\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ToYcE3NOFc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Operations Task\",\"col\":4}},{\"id\":\"y8sh3uVRaZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accounts Task\",\"col\":4}},{\"id\":\"7LaR5Z9evT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Block/Unblock Task\",\"col\":4}},{\"id\":\"JjhrbSJ5Jx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payment collection Task\",\"col\":4}},{\"id\":\"vjikGGGdZd\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Installation Task\",\"col\":4}},{\"id\":\"IVt6SCqai5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Maintenance Task\",\"col\":4}},{\"id\":\"3JrKvt4gPi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"70Mai Task\",\"col\":4}},{\"id\":\"ANYAhtdIkI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Botslabs Task\",\"col\":4}},{\"id\":\"KKyy33UC_M\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Telemko GPS\",\"col\":3}}]",
  "creation": "2025-11-13 14:50:34.967992",
  "custom_blocks": [],
  "docstatus": 0,
@@ -16,7 +16,7 @@
  "link_to": "Task",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-12-07 23:30:50.377275",
+ "modified": "2026-02-09 12:49:42.402920",
  "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko Task",
@@ -32,13 +32,94 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "format": "{} Task",
+   "label": "Block/Unblock Task",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"type\",\"=\",\"Block/Unblock\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Task",
+   "label": "Telemko GPS",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"type\",\"=\",\"Telemko GPS\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
    "kanban_board": "Task",
-   "label": "Task",
+   "label": "Add Task",
    "link_to": "Task",
    "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Task",
+   "label": "Operations Task",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"type\",\"=\",\"Operations\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Task",
+   "label": "Accounts Task",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"type\",\"=\",\"Accounts\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Task",
+   "label": "Payment collection Task",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"type\",\"=\",\"Payment Collection\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Task",
+   "label": "Installation Task",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"type\",\"=\",\"Installation\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Task",
+   "label": "Maintenance Task",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"type\",\"=\",\"Maintenance\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Task",
+   "label": "70Mai Task",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"type\",\"=\",\"70Mai\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Task",
+   "label": "Botslabs Task",
+   "link_to": "Task",
+   "stats_filter": "[[\"Task\",\"type\",\"=\",\"Botslabs\",false]]",
    "type": "DocType"
   }
  ],
  "title": "Telemko Task",
- "type": "Link"
+ "type": "Workspace"
 }

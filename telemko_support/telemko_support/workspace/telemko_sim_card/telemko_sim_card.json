@@ -80,7 +80,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-01-02 13:51:27.324590",
+ "modified": "2026-02-17 13:08:56.921521",
  "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko SIM Card",
@@ -120,7 +120,7 @@
  "quick_lists": [],
  "restrict_to_domain": "",
  "roles": [],
- "sequence_id": 4.0,
+ "sequence_id": 10.0,
  "shortcuts": [
   {
    "color": "Grey",

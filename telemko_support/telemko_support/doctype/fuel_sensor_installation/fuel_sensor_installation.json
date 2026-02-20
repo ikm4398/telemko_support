@@ -1,0 +1,302 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-02-18 10:44:36.719425",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "vehicle_information_section",
+  "customer",
+  "vehicle_no",
+  "date_of_installation",
+  "tank_size",
+  "type_of_sensor",
+  "truck_details_section",
+  "truck_type",
+  "wheller",
+  "brand",
+  "tank_capacity",
+  "sensor_details_section",
+  "no_of_sensor",
+  "sensor_1_name",
+  "mac_sensor_1",
+  "brand_sensor_1",
+  "sn_no_sensor_1",
+  "sensor_2_name",
+  "mac_sensor_2",
+  "brand_sensor_2",
+  "sn_no_sensor_2",
+  "calibration_photos_section_section",
+  "calibration_status",
+  "calibration_file",
+  "photo_1",
+  "photo_2",
+  "photo_3",
+  "maintenance_1_section",
+  "e",
+  "rson",
+  "re",
+  "maintenance_2_section",
+  "ate",
+  "rs",
+  "rem",
+  "maintenance_3_section",
+  "date",
+  "rea",
+  "remarks",
+  "maintenance_4_section",
+  "d",
+  "reas",
+  "r"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehicle_information_section",
+   "fieldtype": "Section Break",
+   "label": "Vehicle Information"
+  },
+  {
+   "fieldname": "vehicle_no",
+   "fieldtype": "Data",
+   "label": "Vehicle No"
+  },
+  {
+   "fieldname": "date_of_installation",
+   "fieldtype": "Date",
+   "label": "Date of Installation"
+  },
+  {
+   "fieldname": "tank_size",
+   "fieldtype": "Data",
+   "label": "Tank Size"
+  },
+  {
+   "fieldname": "type_of_sensor",
+   "fieldtype": "Select",
+   "label": "Type of Sensor",
+   "options": "Analog\nDigital\nBLE\nUltrasonic\nOther"
+  },
+  {
+   "fieldname": "truck_details_section",
+   "fieldtype": "Section Break",
+   "label": "Truck Details"
+  },
+  {
+   "fieldname": "truck_type",
+   "fieldtype": "Select",
+   "label": "Truck Type",
+   "options": "Truck\nTanker\nBus\nCar\nOther"
+  },
+  {
+   "fieldname": "wheller",
+   "fieldtype": "Select",
+   "label": "Wheller",
+   "options": "2 Wheeler\n4 Wheeler\n6 Wheeler\n10 Wheeler\n12 Wheeler\nOther"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand"
+  },
+  {
+   "fieldname": "tank_capacity",
+   "fieldtype": "Data",
+   "label": "Tank Capacity"
+  },
+  {
+   "fieldname": "no_of_sensor",
+   "fieldtype": "Select",
+   "label": "No of Sensor",
+   "options": "1\n2"
+  },
+  {
+   "fieldname": "sensor_details_section",
+   "fieldtype": "Section Break",
+   "label": "Sensor Details"
+  },
+  {
+   "fieldname": "sensor_1_name",
+   "fieldtype": "Data",
+   "label": "Sensor 1 Name"
+  },
+  {
+   "fieldname": "mac_sensor_1",
+   "fieldtype": "Data",
+   "label": "MAC (Sensor 1)"
+  },
+  {
+   "fieldname": "brand_sensor_1",
+   "fieldtype": "Data",
+   "label": "Brand (Sensor 1)"
+  },
+  {
+   "fieldname": "sn_no_sensor_1",
+   "fieldtype": "Data",
+   "label": "S.N No (Sensor 1)"
+  },
+  {
+   "fieldname": "sensor_2_name",
+   "fieldtype": "Data",
+   "label": "Sensor 2 Name"
+  },
+  {
+   "fieldname": "mac_sensor_2",
+   "fieldtype": "Data",
+   "label": "MAC (Sensor 2)"
+  },
+  {
+   "fieldname": "brand_sensor_2",
+   "fieldtype": "Data",
+   "label": "Brand (Sensor 2)"
+  },
+  {
+   "fieldname": "sn_no_sensor_2",
+   "fieldtype": "Data",
+   "label": "S.N No (Sensor 2)"
+  },
+  {
+   "fieldname": "calibration_photos_section_section",
+   "fieldtype": "Section Break",
+   "label": "calibration_photos_section"
+  },
+  {
+   "fieldname": "calibration_file",
+   "fieldtype": "Attach",
+   "label": "Calibration File"
+  },
+  {
+   "fieldname": "photo_1",
+   "fieldtype": "Attach Image",
+   "label": "Photo 1"
+  },
+  {
+   "fieldname": "photo_2",
+   "fieldtype": "Attach Image",
+   "label": "Photo 2"
+  },
+  {
+   "fieldname": "photo_3",
+   "fieldtype": "Attach Image",
+   "label": "Photo 3"
+  },
+  {
+   "fieldname": "calibration_status",
+   "fieldtype": "Select",
+   "label": "Calibration Status",
+   "options": "No\nYes"
+  },
+  {
+   "fieldname": "maintenance_1_section",
+   "fieldtype": "Section Break",
+   "label": "Maintenance 1"
+  },
+  {
+   "fieldname": "e",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "rson",
+   "fieldtype": "Data",
+   "label": "Reason"
+  },
+  {
+   "fieldname": "re",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "maintenance_2_section",
+   "fieldtype": "Section Break",
+   "label": "Maintenance 2"
+  },
+  {
+   "fieldname": "ate",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "rs",
+   "fieldtype": "Data",
+   "label": "Reason "
+  },
+  {
+   "fieldname": "rem",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "maintenance_3_section",
+   "fieldtype": "Section Break",
+   "label": "Maintenance 3"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "rea",
+   "fieldtype": "Data",
+   "label": "Reason"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "maintenance_4_section",
+   "fieldtype": "Section Break",
+   "label": "Maintenance 4"
+  },
+  {
+   "fieldname": "d",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "reas",
+   "fieldtype": "Data",
+   "label": "Reason"
+  },
+  {
+   "fieldname": "r",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Customer"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-02-19 13:02:46.366120",
+ "modified_by": "anisha@telemko.com",
+ "module": "Telemko Support",
+ "name": "Fuel Sensor Installation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

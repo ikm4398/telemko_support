@@ -1,0 +1,43 @@
+{
+ "app": "telemko_support",
+ "charts": [],
+ "content": "[{\"id\":\"eD8A2iE9PW\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"BUlzgNkKi_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fuel Sensor Installation\",\"col\":3}}]",
+ "creation": "2026-02-18 14:37:06.443814",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "setting",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Telemko Fuel sensor",
+ "link_to": "Task",
+ "link_type": "DocType",
+ "links": [],
+ "modified": "2026-02-19 11:46:54.569917",
+ "modified_by": "anisha@telemko.com",
+ "module": "Telemko Support",
+ "name": "Telemko Fuel sensor",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 9.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Fuel Sensor Installation",
+   "link_to": "Fuel Sensor Installation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Telemko Fuel sensor",
+ "type": "Workspace"
+}

@@ -9,7 +9,7 @@
  "external_link": "https://telemko.com/",
  "for_user": "",
  "hide_custom": 0,
- "icon": "message",
+ "icon": "small-message",
  "idx": 0,
  "indicator_color": "green",
  "is_hidden": 0,
@@ -17,7 +17,7 @@
  "link_to": "SMS Center",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-12-21 22:26:18.772769",
+ "modified": "2026-02-09 12:54:49.944850",
  "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Send SMS",
@@ -29,16 +29,7 @@
  "restrict_to_domain": "",
  "roles": [],
  "sequence_id": 7.0,
- "shortcuts": [
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Customer",
-   "link_to": "Customer",
-   "stats_filter": "[]",
-   "type": "DocType"
-  }
- ],
+ "shortcuts": [],
  "title": "Send SMS",
  "type": "Link"
 }
