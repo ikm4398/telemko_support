@@ -16,8 +16,8 @@
  "label": "Telemko Marketing Docs",
  "link_type": "DocType",
  "links": [],
- "modified": "2026-02-19 11:52:18.397585",
- "modified_by": "anisha@telemko.com",
+ "modified": "2026-02-24 17:13:24.033900",
+ "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko Marketing Docs",
  "number_cards": [],
@@ -32,19 +32,28 @@
   {
    "color": "Grey",
    "doc_view": "List",
-   "format": "{}",
-   "label": "GPS Installation Guide",
+   "format": "{} ",
+   "label": "GPS Materials",
    "link_to": "Telemko Document",
-   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"GPS Installation Guide\",false]]",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"GPS\"]]",
    "type": "DocType"
   },
   {
    "color": "Grey",
    "doc_view": "List",
    "format": "{}",
-   "label": "GPS User Guide",
+   "label": "Fuel Sensor",
    "link_to": "Telemko Document",
-   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"GPS User Guide\",false]]",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"Fuel Sensor\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Live Dashcam",
+   "link_to": "Telemko Document",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"Live Dashcam\"]]",
    "type": "DocType"
   },
   {
@@ -59,36 +68,9 @@
    "color": "Grey",
    "doc_view": "List",
    "format": "{}",
-   "label": "Fuel Sensor",
-   "link_to": "Telemko Document",
-   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"Fuel Sensor\",false]]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "format": "{} ",
-   "label": "GPS Materials",
-   "link_to": "Telemko Document",
-   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"GPS\",false]]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "format": "{}",
-   "label": "Live Dashcam",
-   "link_to": "Telemko Document",
-   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"Live Dashcam\",false]]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "format": "{}",
    "label": "70Mai",
    "link_to": "Telemko Document",
-   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"70Mai\",false]]",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"70Mai\"]]",
    "type": "DocType"
   },
   {
@@ -97,7 +79,25 @@
    "format": "{}",
    "label": "Botslab",
    "link_to": "Telemko Document",
-   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"Botslabs\",false]]",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"Botslabs\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "GPS Installation Guide",
+   "link_to": "Telemko Document",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"GPS Installation Guide\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "GPS User Guide",
+   "link_to": "Telemko Document",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"GPS User Guide\"]]",
    "type": "DocType"
   }
  ],

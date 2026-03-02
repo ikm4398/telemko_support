@@ -9,11 +9,14 @@
   "customer",
   "vehicle_no",
   "date_of_installation",
+  "column_break_jjhc",
   "tank_size",
   "type_of_sensor",
+  "sensor_brand",
   "truck_details_section",
   "truck_type",
   "wheller",
+  "column_break_nwgd",
   "brand",
   "tank_capacity",
   "sensor_details_section",
@@ -22,6 +25,7 @@
   "mac_sensor_1",
   "brand_sensor_1",
   "sn_no_sensor_1",
+  "column_break_ihib",
   "sensor_2_name",
   "mac_sensor_2",
   "brand_sensor_2",
@@ -30,23 +34,28 @@
   "calibration_status",
   "calibration_file",
   "photo_1",
+  "column_break_pvnw",
   "photo_2",
   "photo_3",
   "maintenance_1_section",
   "e",
   "rson",
+  "column_break_izbo",
   "re",
   "maintenance_2_section",
   "ate",
   "rs",
+  "column_break_bsje",
   "rem",
   "maintenance_3_section",
   "date",
   "rea",
+  "column_break_gtqm",
   "remarks",
   "maintenance_4_section",
   "d",
   "reas",
+  "column_break_aunl",
   "r"
  ],
  "fields": [
@@ -270,13 +279,50 @@
    "fieldtype": "Link",
    "label": "Company",
    "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_jjhc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nwgd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ihib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pvnw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_izbo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bsje",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gtqm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_aunl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sensor_brand",
+   "fieldtype": "Data",
+   "label": "Sensor Brand"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-19 13:02:46.366120",
- "modified_by": "anisha@telemko.com",
+ "modified": "2026-02-25 17:17:15.978082",
+ "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Fuel Sensor Installation",
  "owner": "Administrator",

@@ -1,0 +1,94 @@
+{
+ "app": "telemko_support",
+ "creation": "2025-12-10 00:45:35.940720",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "header_icon": "call",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Home",
+   "link_to": "Telemko SIM Card",
+   "link_type": "Workspace",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "SIM Card",
+   "link_to": "SIM Card",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Device Stock",
+   "link_to": "Device Stock",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "SIM Card Bulk Entry",
+   "link_to": "SIM Card Bulk Entry",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Installation Details Bulk Entry",
+   "link_to": "Installation Details Bulk Entry",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Device Stock Bulk Entry",
+   "link_to": "Device Stock Bulk Entry",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Installation Details",
+   "link_to": "Installation Details",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-02-23 16:17:54.899475",
+ "modified_by": "Administrator",
+ "module": "Telemko Support",
+ "name": "Telemko SIM Card",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Telemko SIM Card"
+}

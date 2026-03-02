@@ -1,0 +1,20 @@
+{
+ "app": "telemko_support",
+ "bg_color": "gray",
+ "creation": "2026-02-23 15:22:09.145142",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Marketing Docs",
+ "link_to": "Marketing Docs",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-02-23 16:19:56.725729",
+ "modified_by": "Administrator",
+ "name": "Marketing Docs",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

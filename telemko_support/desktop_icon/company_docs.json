@@ -1,0 +1,20 @@
+{
+ "app": "telemko_support",
+ "bg_color": "gray",
+ "creation": "2026-02-23 15:23:41.306340",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Company Docs",
+ "link_to": "Company Docs",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-02-23 16:19:47.090912",
+ "modified_by": "Administrator",
+ "name": "Company Docs",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "standard": 1
+}

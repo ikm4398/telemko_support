@@ -1,7 +1,7 @@
 {
  "app": "telemko_support",
  "charts": [],
- "content": "[{\"id\":\"LAKRmpYMRA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"XGIwEUStw_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"VUqHmrXBqC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Document\",\"col\":3}},{\"id\":\"-I9HhcgUKE\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+ "content": "[{\"id\":\"LAKRmpYMRA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"XGIwEUStw_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"VUqHmrXBqC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Document\",\"col\":3}},{\"id\":\"-I9HhcgUKE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"2zxipNwUaV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"2080-81\",\"col\":3}},{\"id\":\"GFTXCZl4V3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"2081-82\",\"col\":3}},{\"id\":\"BdToCfsLs_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"2082-83\",\"col\":3}},{\"id\":\"uSgPuVQa7U\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"General Document\",\"col\":3}}]",
  "creation": "2026-02-19 11:29:16.416430",
  "custom_blocks": [],
  "docstatus": 0,
@@ -10,14 +10,14 @@
  "for_user": "",
  "hide_custom": 0,
  "icon": "clipboard",
- "idx": 0,
+ "idx": 1,
  "indicator_color": "green",
  "is_hidden": 0,
  "label": "Telemko Company Docs",
  "link_type": "DocType",
  "links": [],
- "modified": "2026-02-19 11:53:35.428420",
- "modified_by": "anisha@telemko.com",
+ "modified": "2026-02-24 13:51:09.967955",
+ "modified_by": "Administrator",
  "module": "Telemko Support",
  "name": "Telemko Company Docs",
  "number_cards": [],
@@ -35,6 +35,38 @@
    "label": "Add Document",
    "link_to": "Telemko Document",
    "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "2080-81",
+   "link_to": "Telemko Document",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"2080-81\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "2081-82",
+   "link_to": "Telemko Document",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"2081-82\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "2082-83",
+   "link_to": "Telemko Document",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"2082-83\"]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "General Document",
+   "link_to": "Telemko Document",
+   "stats_filter": "[[\"Telemko Document\",\"document_type\",\"=\",\"General Document\"]]",
    "type": "DocType"
   }
  ],

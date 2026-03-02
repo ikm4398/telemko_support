@@ -1,0 +1,21 @@
+{
+ "app": "telemko_support",
+ "bg_color": "gray",
+ "creation": "2026-02-24 10:39:14.232260",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "Link",
+ "idx": 0,
+ "label": "Courier Status",
+ "link_to": "Courier Status",
+ "link_type": "Workspace Sidebar",
+ "modified": "2026-02-24 17:30:58.939780",
+ "modified_by": "Administrator",
+ "name": "Courier Status",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "sidebar": "Courier Status",
+ "standard": 1
+}

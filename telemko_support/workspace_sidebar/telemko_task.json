@@ -1,0 +1,28 @@
+{
+ "app": "telemko_support",
+ "creation": "2026-02-23 16:23:56.140325",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "list",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Telemko Task",
+   "link_to": "Telemko Task",
+   "link_type": "Workspace",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-02-23 16:58:27.303898",
+ "modified_by": "Administrator",
+ "module": "Telemko Support",
+ "name": "Telemko Task",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Telemko Task"
+}

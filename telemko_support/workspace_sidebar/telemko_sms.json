@@ -1,0 +1,26 @@
+{
+ "app": "telemko_support",
+ "creation": "2026-02-23 13:57:06.647029",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Telemko SMS",
+   "link_to": "SMS Center",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-02-23 13:59:15.089230",
+ "modified_by": "Administrator",
+ "name": "Telemko SMS",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Telemko SMS"
+}
