@@ -4,7 +4,7 @@ from frappe.auth import LoginManager
 from frappe.sessions import clear_sessions
 from .utils import parse_name, get_or_create_customer, get_or_create_contact
 
-@frappe.whitelist(allow_guest=False)
+@frappe.whitelist(allow_guest=True)
 def complete_registration(mobile_no, otp, customer_name, email_id):
     """
     Verify OTP → Create/Update Customer → Contact → User → Portal linking
@@ -26,12 +26,8 @@ def complete_registration(mobile_no, otp, customer_name, email_id):
 
     # ── Prepare name parts ─────────────────────────────────────
     first_name, last_name = parse_name(customer_name)
-
-    # ── Temporarily switch to Administrator for permission bypass ──
-    old_user = frappe.session.user
     try:
-        frappe.set_user("Administrator")  # Assumes Administrator exists; adjust if needed (e.g., "system_manager@telemko.com")
-
+        frappe.set_user("Administrator")
         # ── Customer ───────────────────────────────────────────────
         customer = get_or_create_customer(mobile_no, customer_name, email_id)
 
@@ -43,12 +39,10 @@ def complete_registration(mobile_no, otp, customer_name, email_id):
             frappe.throw("An account already exists with this email")
 
         user = frappe.new_doc("User")
-        # user.flags.ignore_permissions = True  # Not needed under Administrator
-
         user.email = email_id
         user.first_name = first_name
         user.last_name = last_name
-        user.username = mobile_no          # or email - your choice
+        user.username = mobile_no          
         user.mobile_no = mobile_no
         user.phone = mobile_no
         user.enabled = 1
@@ -84,7 +78,7 @@ def complete_registration(mobile_no, otp, customer_name, email_id):
         try:
             # Proper Frappe login flow (creates session)
             login_manager = LoginManager()
-            frappe.set_user(user.name)               # Important!
+            frappe.set_user(user.name)              
             login_manager.user = user.name
             login_manager.post_login()
 
@@ -100,7 +94,7 @@ def complete_registration(mobile_no, otp, customer_name, email_id):
                 "full_name": full_name,
                 "customer": customer,
                 "contact": contact,
-                "sid": frappe.session.sid,           # ← this is what you want!
+                "sid": frappe.session.sid,           
                 "roles": frappe.get_roles(user.name)
             }
 
@@ -116,5 +110,4 @@ def complete_registration(mobile_no, otp, customer_name, email_id):
             }
 
     finally:
-        frappe.set_user(old_user)   # Restore original user (Guest)
         frappe.db.commit()  # Ensure commit after restore
