@@ -1,0 +1,28 @@
+{
+ "app": "telemko_support",
+ "creation": "2026-04-16 12:51:34.061658",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "camera",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Camera Live Video",
+   "link_to": "Camera Installation",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-16 16:12:24.496206",
+ "modified_by": "anisha@telemko.com",
+ "module": "Telemko Support",
+ "name": "Telemko Camera Live",
+ "owner": "anisha@telemko.com",
+ "standard": 1,
+ "title": "Telemko Camera Live"
+}
